@@ -15,7 +15,5 @@ module.exports = {
     '<rootDir>/node_modules/',
     '<rootDir>/test/',
     '<rootDir>/public/',
-    '<rootDir>/styles/font',
-    '<rootDir>/script',
   ]
 };
