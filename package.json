@@ -1,0 +1,46 @@
+{
+  "name": "landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "npm run lint:ts && npm run lint:css",
+    "lint:ts": "tslint -c tslint.json '{components,pages,styles,utils}/**/*.{ts,tsx}'",
+    "lint:css": "stylelint '{components,pages,styles,utils}/**/*.{ts,tsx}'",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "next": "9.3.5",
+    "nextjs-fonts": "^0.22.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.1",
+    "@types/react": "^16.9.34",
+    "@types/styled-components": "^5.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.6.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "fibers": "^3.1.1",
+    "jest": "^25.3.0",
+    "jest-styled-components": "^7.0.2",
+    "node-sass": "^4.13.1",
+    "sass": "^1.26.3",
+    "stylelint": "^13.3.2",
+    "stylelint-config-concentric-order": "^4.0.0",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3",
+    "utf-8-validate": "^5.0.2"
+  }
+}
