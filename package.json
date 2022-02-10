@@ -37,7 +37,7 @@
     "fibers": "^3.1.1",
     "jest": "^25.3.0",
     "jest-styled-components": "^7.0.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "sass": "^1.26.3",
     "stylelint": "^13.3.2",
     "stylelint-config-concentric-order": "^4.0.0",
